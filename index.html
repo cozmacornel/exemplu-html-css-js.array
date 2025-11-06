@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplu Array JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Produse</h1>
+        
+        <div class="input-section">
+            <input type="text" id="productInput" placeholder="Adaugă un produs nou">
+            <button id="addBtn">Adaugă</button>
+        </div>
+
+        <div class="filter-section">
+            <input type="text" id="searchInput" placeholder="Caută produse...">
+        </div>
+
+        <div class="stats">
+            <p>Total produse: <span id="totalProducts">0</span></p>
+        </div>
+
+        <ul id="productList"></ul>
+
+        <div class="actions">
+            <button id="sortBtn">Sortează alfabetic</button>
+            <button id="clearBtn">Șterge toate</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
